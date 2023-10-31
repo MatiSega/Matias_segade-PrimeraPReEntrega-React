@@ -1,0 +1,13 @@
+/* Estilos para el texto "Bienvenidos" */
+.Parrafo {
+    display: flex;
+    font-size: 3.2em;
+    line-height: 1.1;
+    position: fixed;
+    top: 8%; /* Alinearlo verticalmente */
+    left: 0%; /* Alinearlo horizontalmente */ 
+    transform: translate(2%, 25%); /* Centrar el texto */
+    z-index: 1; 
+    color: #fff;
+}
+  

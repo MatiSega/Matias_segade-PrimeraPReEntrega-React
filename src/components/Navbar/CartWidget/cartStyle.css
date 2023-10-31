@@ -1,0 +1,18 @@
+/* Estilos para el Carrito y su número */
+.cart-widget {
+  display: flex;
+  align-items: center;
+
+}
+
+.cart-icon {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+}
+
+p {
+  display: flex;
+  color: black;
+  margin: 0;
+}

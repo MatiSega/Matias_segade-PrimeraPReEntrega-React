@@ -1,0 +1,53 @@
+/* Estilos generales para el Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  /* Estilos para el logotipo y el título */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Estilos para los botones del Navbar */
+  .navbar-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-buttons button {
+    margin-right: 10px;
+    background-color: #4de9c2;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .navbar-buttons button:last-child {
+    margin-right: 0;
+  }
+  .navbar-buttons button:hover{
+    background-color: re;
+  }
