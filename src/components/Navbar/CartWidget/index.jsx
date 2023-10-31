@@ -2,6 +2,6 @@
 
 
 export const Nombre= () => {
-
+prompt
 
 }

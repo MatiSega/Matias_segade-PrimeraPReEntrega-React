@@ -1,11 +1,12 @@
 import { useState } from "react";
+import { Rein } from "../ItemListContainer";
 
 export const HookUseState = () => {
   const [count, setCount] = useState(0);
   const [name, setName] = useState("");
 
   const changeName = () => {
-    setName(Nombre);
+    setName(Rein);
   };
 
   const deleteName = () => {
@@ -32,9 +33,9 @@ export const HookUseState = () => {
   return (
     <>
       <h2>Contador: {count}</h2>
-      <button onClick={increment}>Sumar</button>
-      <button onClick={decrement}>Restar</button>
-      <button onClick={reset}>Resetear</button>
+      <button onClick={increment}>Suma</button>
+      <button onClick={decrement}>Resta</button>
+      <button onClick={reset}>Reset</button>
       <hr />
       <h2>Nombre: {name} </h2>
       <button onClick={changeName}>Poner nombre</button>

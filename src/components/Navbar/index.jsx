@@ -1,10 +1,10 @@
-import "./style.css";
+ import "./style.css";
 
-export const Hola = ({ Nombre, Edad }) => {
+export const Hola = ({ mensaje, mesada }) => {
     return (
       <>
-        <div>Ingresa tu nombre {Nombre} </div>
-        <div>Edad: {Edad} </div>
+        <div>Mostrar prop: {mensaje} </div>
+        <div>Mesada: {mesada} </div>
       </>
     );
   };
